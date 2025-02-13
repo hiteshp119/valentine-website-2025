@@ -14,8 +14,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💗' ],  // Heart emojis
+        bears: ['🐻']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -34,8 +34,8 @@ const CONFIG = {
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            yesBtn: "Yes!!!!!!",                                             // Text for "Yes" button
+            noBtn: "NO"                                                 // Text for "No" button
         }
     },
 
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕",  // These will bounce around
+        title: "Yay!!!! I'm the luckiest person in the world! 🎉",
+        message: "Now come get your gift, a big warm hug and a huge kiss! - Physically on March 25",
+        emojis: "🤗💕",  // These will bounce around
         imageUrls: [ 
             "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image7.gif",
             "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/IMG_6197-ezgif.com-video-to-gif-converter.gif"
@@ -83,7 +83,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "0.3s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
