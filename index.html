@@ -55,11 +55,15 @@
         </div>
 
         <!-- Final Question -->
+       <!-- Final Question -->
         <div class="question-section hidden" id="question3">
             <h2 id="question3Text"></h2>
             <button class="cute-btn final-yes" onclick="celebrate()" id="yesBtn3"></button>
-            <button class="cute-btn" onclick="moveButton(this)" id="noBtn3"></button>
+            <button class="cute-btn" onclick="handleNoClickSecondQuestion()" id="noBtn3"></button>
+            <!-- GIF for No Button Reaction -->
+            <img id="noGifImageSecondQuestion" src="" alt="Reaction GIF" style="display: none; max-width: 250px; margin-top: 15px; border-radius: 10px;">
         </div>
+
 
         <!-- CUSTOMIZE: Celebration message -->
         <div class="celebration hidden" id="celebration">
