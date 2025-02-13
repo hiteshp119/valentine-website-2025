@@ -1,5 +1,6 @@
 // Initialize configuration
 const config = window.VALENTINE_CONFIG;
+let noClickCounterSecondQuestion = 0;
 
 // Validate configuration
 function validateConfig() {
@@ -247,3 +248,18 @@ function setupMusicPlayer() {
         }
     });
 } 
+
+
+let noClickCounterSecondQuestion = 0;
+
+function handleNoClickSecondQuestion() {
+    const noGifImage = document.getElementById('noGifImageSecondQuestion');
+    const gifs = config.noReactionGifsSecondQuestion;
+
+    noGifImage.src = gifs[noClickCounterSecondQuestion % gifs.length];
+    noGifImage.style.display = 'block';
+
+    moveButton(document.getElementById('noBtn3'));
+
+    noClickCounterSecondQuestion++;
+}
