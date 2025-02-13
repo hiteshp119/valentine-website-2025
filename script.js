@@ -1,6 +1,5 @@
 // Initialize configuration
 const config = window.VALENTINE_CONFIG;
-let noClickCounterSecondQuestion = 0;
 
 // Validate configuration
 function validateConfig() {
