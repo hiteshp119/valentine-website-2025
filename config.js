@@ -52,6 +52,7 @@ const CONFIG = {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        videoUrl: "https://raw.github.com/hiteshp119/valentine-website-2025/main/IMG_6197-ezgif.com-video-to-gif-converter.gif"
     },
 
     // Color scheme for the website
