@@ -56,12 +56,15 @@ const CONFIG = {
     },
 
     noReactionGifsSecondQuestion: [
-    "https://raw.githubusercontent.com/your-username/repo-name/main/gif1.gif",
-    "https://raw.githubusercontent.com/your-username/repo-name/main/gif2.gif",
-    "https://raw.githubusercontent.com/your-username/repo-name/main/gif3.gif",
-    "https://raw.githubusercontent.com/your-username/repo-name/main/gif4.gif",
-    "https://raw.githubusercontent.com/your-username/repo-name/main/gif5.gif"
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image1.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image2.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image3.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image4.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image5.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image6.gif",
+    "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/image7.gif"
 ],
+
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
