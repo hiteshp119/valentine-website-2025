@@ -184,13 +184,29 @@ function celebrate() {
     document.getElementById('celebrationMessage').textContent = config.celebration.message;
     document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
 
-    // Show GIF if configured
+    // Handle multiple images (GIFs)
+    const imagesContainer = document.getElementById('celebrationImagesContainer');
+    imagesContainer.innerHTML = ""; // Clear previous images if any
+
+    if (config.celebration.imageUrls) {
+        config.celebration.imageUrls.forEach((url) => {
+            const img = document.createElement('img');
+            img.src = url;
+            img.style.maxWidth = '250px';
+            img.style.borderRadius = '10px';
+            img.style.marginTop = '10px';
+            img.style.display = 'block';
+            imagesContainer.appendChild(img);
+        });
+    }
+
+    /* Show GIF if configured
     const gifElement = document.getElementById('celebrationGif');
     if (config.celebration.imageUrl) {
         gifElement.src = config.celebration.imageUrl;
         gifElement.style.display = 'block';
     }
-    
+    */
     // Create heart explosion effect
     createHeartExplosion();
 }
