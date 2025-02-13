@@ -183,6 +183,13 @@ function celebrate() {
     document.getElementById('celebrationTitle').textContent = config.celebration.title;
     document.getElementById('celebrationMessage').textContent = config.celebration.message;
     document.getElementById('celebrationEmojis').textContent = config.celebration.emojis;
+
+    // Show GIF if configured
+    const gifElement = document.getElementById('celebrationGif');
+    if (config.celebration.imageUrl) {
+        gifElement.src = config.celebration.imageUrl;
+        gifElement.style.display = 'block';
+    }
     
     // Create heart explosion effect
     createHeartExplosion();
