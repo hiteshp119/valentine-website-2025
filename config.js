@@ -55,6 +55,13 @@ const CONFIG = {
         imageUrl: "https://raw.githubusercontent.com/hiteshp119/valentine-website-2025/main/IMG_6197-ezgif.com-video-to-gif-converter.gif"
     },
 
+    noReactionGifsSecondQuestion: [
+    "https://raw.githubusercontent.com/your-username/repo-name/main/gif1.gif",
+    "https://raw.githubusercontent.com/your-username/repo-name/main/gif2.gif",
+    "https://raw.githubusercontent.com/your-username/repo-name/main/gif3.gif",
+    "https://raw.githubusercontent.com/your-username/repo-name/main/gif4.gif",
+    "https://raw.githubusercontent.com/your-username/repo-name/main/gif5.gif"
+],
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
